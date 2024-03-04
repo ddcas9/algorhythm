@@ -5,9 +5,11 @@
   "dependencies": {
     "mathjs": "^12.4.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "serve": "^14.2.1"
   },
-  "scripts": { 
+  "scripts": {
+    "start": "serve -s dist",
     "build": "webpack --config webpack.config.js"
   },
   "eslintConfig": {
