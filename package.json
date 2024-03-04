@@ -7,10 +7,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "scripts": {
-    "start": "webpack-dev-server --open --config webpack.config.js --port 3000",
+  "scripts": { 
     "build": "webpack --config webpack.config.js",
-    "analyze": "source-map-explorer dist/bundle.js"
   },
   "eslintConfig": {
     "extends": [
